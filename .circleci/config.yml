@@ -1,5 +1,6 @@
 #config.yml
 
+version: 2
 jobs:
   build:
     docker:
@@ -8,8 +9,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: "Install dependencies"
+          name: 'Install dependencies'
           command: npm install
       - run:
           name: 'Push to UXPin'
-          command: ./node_modules/.bin/uxpin-merge push --webpack-config ./webpack.config.js --wrapper ./src/Wrapper/UXPinWrapper.js
+          command: npm run push
