@@ -28,6 +28,7 @@
     "uxpin": "uxpin-merge --disable-tunneling --webpack-config ./uxpin.webpack.config.js --wrapper ./src/components/UXPinWrapper/UXPinWrapper.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "push": "uxpin-merge push",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
