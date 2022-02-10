@@ -104,7 +104,7 @@ module.exports = {
         {
           name: 'Dialog',
           include: [
-            // 'src/components/Dialog/Dialog.js',
+            'src/components/Dialog/Dialog.js',
             'src/components/DialogActions/DialogActions.js',
             'src/components/DialogContentText/DialogContentText.js',
             'src/components/DialogTitle/DialogTitle.js',
