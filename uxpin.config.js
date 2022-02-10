@@ -104,7 +104,7 @@ module.exports = {
         {
           name: 'Dialog',
           include: [
-            'src/components/Dialog/Dialog.js',
+            //'src/components/Dialog/Dialog.js',
             'src/components/DialogActions/DialogActions.js',
             'src/components/DialogContentText/DialogContentText.js',
             'src/components/DialogTitle/DialogTitle.js',
@@ -181,14 +181,14 @@ module.exports = {
           include: [
             'src/components/Alert/Alert.js',
             'src/components/AlertTitle/AlertTitle.js',
-            // 'src/components/Autocomplete/Autocomplete.js',
+            'src/components/Autocomplete/Autocomplete.js',
             'src/components/Backdrop/Backdrop.js',
             'src/components/Collapse/Collapse.js',
-            // 'src/components/DatePicker/DatePicker.js',
+            'src/components/DatePicker/DatePicker.js',
             "src/components/Image/Image.js",
             'src/components/InputLabel/InputLabel.js',   
             'src/components/Skeleton/Skeleton.js',
-            // 'src/components/Slider/Slider.js',
+            'src/components/Slider/Slider.js',
             'src/components/Snackbar/Snackbar.js',
             'src/components/Toolbar/Toolbar.js',
           ],
