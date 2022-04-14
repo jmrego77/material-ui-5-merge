@@ -145,7 +145,7 @@ module.exports = {
         name: 'Data Display',
         include: [
           'src/components/Avatar/Avatar.js',
-          'src/components/AvatarGroup/AvatarGroup.js',
+          //'src/components/AvatarGroup/AvatarGroup.js',
           'src/components/Badge/Badge.js',
           'src/components/Chip/Chip.js',
           'src/components/Divider/Divider.js',
